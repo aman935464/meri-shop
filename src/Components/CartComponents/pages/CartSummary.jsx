@@ -13,7 +13,7 @@ export default function CartSummary() {
   const taxRate = 18 / 100;
   const discount = Number((subTotal * discountRate).toFixed(1));
   const tax = Number(((subTotal - discount) * taxRate).toFixed(1));
-  const totalAmount = subTotal - discount + tax;
+  const totalAmount = Number(subTotal - discount + tax).toFixed(1);
 
   return (
     <>
