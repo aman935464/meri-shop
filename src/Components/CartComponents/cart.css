@@ -155,7 +155,7 @@
   margin-right: 10px;
   float: right;
   letter-spacing: 0.7px;
-
+  font-size: clamp(12px, 1.5vw, 16px);
   transition: all 0.3s ease;
 }
 
@@ -201,7 +201,7 @@
 }
 
 @media (min-width: 1025px) {
-  .productContainer {
+  .cart-container {
     grid-template-columns: 2fr 1fr;
     padding-top: 50px;
   }

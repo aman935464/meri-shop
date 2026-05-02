@@ -13,13 +13,13 @@ export default function HomeProduct() {
         <div className="productCard" key={product.id}>
           <Link to={`product/${product.id}`}>
             <img src={product.images[0]} alt={product.title} />
-            <h6>{product.title}</h6>
             <h5>
               <b>{product.currency}</b>
               {product.price}
             </h5>
+            <h6>{product.title}</h6>
           </Link>
-          <button className="text-yellow-700 w-[100px] h-auto border mt-4" onClick={() => addToCart(product)}>Add Cart</button>
+          <button className="addcart-btn" onClick={() => addToCart(product)}>Add Cart</button>
         </div>
       ))}
     </div>
