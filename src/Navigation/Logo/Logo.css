@@ -1,0 +1,45 @@
+.navbar .logo {
+    text-align: center;
+    border-radius: 3px;
+}
+
+.navbar .logo .firstLetter {
+    color: white;
+    background-color: blue;
+    font-family: cursive;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: clamp(10px, 2vw, 16px);
+}
+
+.navbar .logo .secondLetter {
+    color: blue;
+    font-size: clamp(10px, 2vw, 22px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.9px;
+}
+
+/* Mobile Responsive Style*/
+@media (max-width: 600px) {
+    .navbar .logo{
+      margin-top: 8px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+.navbar .logo{
+      margin-top: 7px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+.navbar .logo{
+      width: 7rem;
+    }
+}
+
+@media (min-width: 1025px) {
+.navbar .logo{
+      min-width: 7rem;
+    }
+}

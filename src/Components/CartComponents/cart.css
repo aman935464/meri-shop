@@ -1,0 +1,213 @@
+.cart-container {
+  display: flex;
+
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--bg);
+}
+
+.cart-container .cart-product-section {
+  width: 70%;
+  background-color: var(--page);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+
+
+.cart-container .cart-sec {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 2vw, 20px);
+  padding: clamp(10px, 2vw, 15px);
+  background-color: var(--bg);
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.596);
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.cart-container .cart-sec:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 10px rgba(100, 150, 255, 0.3);
+  background-color: var(--card); 
+}
+
+.cart-container .cart-sec img {
+  width: clamp(70px, 8vw, 120px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+  mix-blend-mode: var(--remover);
+  transition: transform 0.3s ease;
+}
+.cart-sec img:hover {
+  transform: scale(1.05);
+}
+.cart-container .detail-sec {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cart-container .item-title {
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: 600;
+  color: var(--text);
+  font-family: 'Times New Roman', Times, serif;
+  display: none;
+}
+
+.cart-container.item-description {
+  font-size: clamp(12px, 1.5vw, 20px);
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: var(--text);
+}
+
+.cart-container .item-price {
+  display: none;
+  font-size: clamp(12px, 1.5vw, 16px);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text);
+}
+
+.cart-container .pre {
+  font-size: 12px;
+  color: #2ec4b6;
+}
+
+.cart-container .item-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.cart-container .item-qty-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: yellow;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.cart-container .item-qty-btn button {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+
+}
+.cart-container .item-qty-btn button:hover{
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+
+.cart-container .remove-btn {
+  border-radius: 20px;
+  background-color: var(--btn);
+  color: var(--btn-text);
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: clamp(12px, 1.5vw, 16px);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.7px;
+  transition: all 0.3s ease;
+}
+
+.cart-container .remove-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.cart-container .price-sec {
+  font-weight: bold;
+  min-width: 80px;
+  text-align: right;
+  font-weight: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+
+.cart-container .items-clear-btn{
+  width: clamp(80px, 8vw, 100px);
+  height: 30px;
+  background-color: var(--btn);
+  color: var(--btn-text);
+  border-radius: 20px;
+  margin-right: 10px;
+  float: right;
+  letter-spacing: 0.7px;
+  
+  transition: all 0.3s ease;
+}
+.cart-container .items-clear-btn:hover {
+  transform: scale(1.05);
+  letter-spacing: 1.9px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 10px rgba(100, 150, 255, 0.3);
+}
+
+
+@media (max-width: 768px) {
+  .cart-sec {
+    align-items: flex-start;
+  }
+
+  .item-title {
+    display: block;
+  }
+
+  .item-description {
+    display: none;
+  }
+
+  .price-sec {
+    display: none;
+  }
+
+  .item-price {
+    display: block;
+  }
+}
+
+
+
+.cart-container .cart-calculation-section {
+  width: 25%;
+  background-color: var(--page);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-height: 300px;
+  gap: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+#cart-summary {
+  align-items: center;
+  gap: clamp(20px, 10vw, 50px);
+  padding: clamp(20px, 2vw, 50px);
+  height: clamp(300px, 100%, 500px);
+  background-color: var(--bg);
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(73, 72, 72, 0.596);
+}
+
+#cart-summary div{
+  display: flex;
+  justify-content: space-between;
+}

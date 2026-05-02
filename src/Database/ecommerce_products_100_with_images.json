@@ -1,0 +1,1372 @@
+[
+  {
+    "id": 1,
+    "title": "Samsung Galaxy S23 5G (Phantom Black, 256 GB) (8 GB RAM)",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "price": 74999,
+    "currency": "₹",
+    "description": "Samsung Galaxy S23 5G ek premium flagship smartphone hai jo powerful Snapdragon 8 Gen 2 processor, compact design aur high-end camera performance ke saath aata hai.",
+    "features": [
+      "6.1-inch Dynamic AMOLED 2X Display (120Hz refresh rate)",
+      "Qualcomm Snapdragon 8 Gen 2 processor",
+      "50MP + 12MP + 10MP Triple Rear Camera",
+      "12MP Front Camera",
+      "8GB RAM and 256GB Internal Storage",
+      "3900mAh Battery with Fast Charging",
+      "Android 13 with One UI",
+      "5G Connectivity",
+      "IP68 Water and Dust Resistance",
+      "Gorilla Glass Victus 2 Protection"
+    ],
+    "rating": 4.6,
+    "stock": 35,
+    "images": [
+      "https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/268868_0_iz3gsn.png",
+      "https://st.gsmarena.com/imgroot/reviews/23/samsung-galaxy-s23-plus/lifestyle/-1200w5/gsmarena_014.jpg",
+      "https://images.fonearena.com/blog/wp-content/uploads/2023/02/Samsung-Galaxy-S23_fonearena-9-1024x648.jpg",
+      "https://m.media-amazon.com/images/I/41N21l9YKmL.jpg"
+    ],
+    "tags": [
+      "samsung",
+      "galaxy s23",
+      "5g phone",
+      "flagship",
+      "android",
+      "smartphone",
+      "amoled display"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+    "brand": "Sony",
+    "category": "Earphone",
+    "price": 29990,
+    "currency": "₹",
+    "description": "Sony WH-1000XM5 premium over-ear wireless headphones hain jo industry-leading noise cancellation, crystal clear sound quality aur long battery life provide karte hain.",
+    "features": [
+      "Industry-leading Active Noise Cancellation (ANC)",
+      "30-hour battery life with quick charge support",
+      "30mm driver units for high-resolution audio",
+      "8 microphones for advanced noise reduction",
+      "Bluetooth 5.2 connectivity",
+      "Touch controls and voice assistant support",
+      "Multipoint connection (connect 2 devices simultaneously)",
+      "Lightweight and comfortable design",
+      "Adaptive Sound Control",
+      "USB Type-C fast charging"
+    ],
+    "rating": 4.7,
+    "stock": 20,
+    "images": [
+      "https://m.media-amazon.com/images/I/61BGLYEN-xL._AC_UF1000,1000_QL80_.jpg",
+      "https://avstore.in/cdn/shop/files/4.AVStore-Sony-WH-1000-XM5-Side-View-Black.jpg",
+      "https://b2c-contenthub.com/wp-content/uploads/2022/05/Model-wearing-Sony-WH-1000XM5.jpg",
+      "https://m.media-amazon.com/images/I/71w2oq4CPSL._AC_UF1000,1000_QL80_.jpg"
+    ],
+    "tags": [
+      "sony",
+      "wh1000xm5",
+      "headphones",
+      "noise cancelling",
+      "wireless",
+      "bluetooth",
+      "premium audio"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Apple iPhone 15 (128 GB)",
+    "brand": "Apple",
+    "category": "Mobile",
+    "price": 79900,
+    "currency": "₹",
+    "description": "Apple iPhone 15 ek premium smartphone hai jo A16 Bionic chip, advanced dual camera system aur Dynamic Island display ke saath aata hai. Isme USB-C charging aur improved battery performance bhi diya gaya hai.",
+    "features": [
+      "6.1-inch Super Retina XDR Display",
+      "A16 Bionic Chip",
+      "48MP Main Camera + 12MP Ultra Wide",
+      "12MP Front Camera with Face ID",
+      "128GB Internal Storage",
+      "Dynamic Island",
+      "USB Type-C Charging",
+      "iOS 17",
+      "5G Connectivity",
+      "Ceramic Shield Protection",
+      "All-day battery life"
+    ],
+    "rating": 4.7,
+    "stock": 50,
+    "images": [
+      "https://img-prd-pim.poorvika.com/product/Apple-iphone-15-pro-black-titanium-1TB-Front-Back-View.png",
+      "https://www.apple.com/newsroom/videos/iphone-15-dynamic-island-incoming-call/posters/Apple-iPhone-15-lineup-Dynamic-Island-incoming-call-230912.jpg.large_2x.jpg",
+      "https://img.freepik.com/premium-vector/realistic-iphone-camera-module-kiev-ukraine-february-1-2024-iphone-15-pro-max-blue-titanium_733727-528.jpg",
+      "https://cdn.mos.cms.futurecdn.net/9NBkv3aU32TaXbPobku4hS.jpg"
+    ],
+    "tags": [
+      "apple",
+      "iphone 15",
+      "ios",
+      "smartphone",
+      "5g",
+      "premium",
+      "dynamic island"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Apple MacBook Air M2 (13.6-inch, 8GB RAM, 256GB SSD)",
+    "brand": "Apple",
+    "category": "Laptop",
+    "price": 114900,
+    "currency": "₹",
+    "description": "Apple MacBook Air M2 ek ultra-thin aur lightweight laptop hai jo powerful M2 chip ke saath aata hai. Yeh silent performance, long battery life aur premium build quality provide karta hai.",
+    "features": [
+      "Apple M2 Chip (8-core CPU, 8-core GPU)",
+      "13.6-inch Liquid Retina Display",
+      "8GB Unified Memory",
+      "256GB SSD Storage",
+      "Fanless design (silent operation)",
+      "Up to 18 hours battery life",
+      "1080p FaceTime HD Camera",
+      "MagSafe Charging",
+      "Two Thunderbolt / USB 4 Ports",
+      "macOS support"
+    ],
+    "rating": 4.8,
+    "stock": 25,
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/Zaan37XJE8vRHbA8wPjhs5.jpg",
+      "https://www.apple.com/newsroom/videos/macbook-air-speaker/posters/Apple-WWDC22-MacBook-Air-speaker-demo-220606.jpg.large_2x.jpg",
+      "https://www.techadvisor.com/wp-content/uploads/2022/06/macbook_air_2022_m2_release_date_price_specs.png",
+      "https://www.cultofmac.com/wp-content/uploads/2021/10/50432F45-7AC5-4428-8E44-C2C2C4F0E849.jpeg"
+    ],
+    "tags": [
+      "apple",
+      "macbook air",
+      "m2",
+      "laptop",
+      "ultrabook",
+      "macos",
+      "lightweight",
+      "student laptop"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Canon EOS R7 Mirrorless Camera (Body Only)",
+    "brand": "Canon",
+    "category": "Camera",
+    "price": 139999,
+    "currency": "₹",
+    "description": "Canon EOS R7 ek high-performance APS-C mirrorless camera hai jo fast autofocus, high-speed shooting aur 4K video recording ke saath professionals aur enthusiasts ke liye perfect hai.",
+    "features": [
+      "32.5MP APS-C CMOS Sensor",
+      "DIGIC X Image Processor",
+      "4K UHD Video Recording (up to 60fps)",
+      "In-body Image Stabilization (IBIS)",
+      "Dual Pixel CMOS AF II",
+      "15 fps mechanical / 30 fps electronic shutter",
+      "ISO range up to 32000 (expandable)",
+      "3-inch Vari-angle Touchscreen LCD",
+      "Wi-Fi and Bluetooth connectivity",
+      "Dual SD card slots"
+    ],
+    "rating": 4.7,
+    "stock": 15,
+    "images": [
+      "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:1626,ch:915,q:80,w:1626/wrJFqan32oASzk7whj3eZL.jpg",
+      "https://d28clw9klscyzj.cloudfront.net/legacy/assets/2022-12-27/files/canon-eos-r7-upgrade-dslr_2262-04-en.jpg",
+      "https://in.canon/media/image/2022/05/23/0ad3522b3e844ca19ac0a33a6b88cb28_EOS+R7+w+RF-S18-150mm+f3.5-6.3+IS+SSTM+Front+Slant.png",
+      "https://www.oreilly.com/api/v2/epubs/urn:orm:book:9798888140062/files/images/pg2-1.jpg"
+    ],
+    "tags": [
+      "canon",
+      "eos r7",
+      "mirrorless camera",
+      "aps-c",
+      "4k video",
+      "photography",
+      "professional camera"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Nike Air Max 270 Running Shoes",
+    "brand": "Nike",
+    "category": "Footwear",
+    "price": 12995,
+    "currency": "₹",
+    "description": "Nike Air Max 270 stylish lifestyle running shoes hain jo maximum comfort aur modern design ke liye famous hain. Inka large Air unit heel cushioning ke liye specially design kiya gaya hai.",
+    "features": [
+      "Max Air 270 unit for superior cushioning",
+      "Breathable mesh upper",
+      "Lightweight and flexible design",
+      "Foam midsole for added comfort",
+      "Rubber outsole for durability and grip",
+      "Pull tab for easy wear",
+      "Lifestyle and casual wear friendly",
+      "Available in multiple colorways"
+    ],
+    "rating": 4.6,
+    "stock": 40,
+    "images": [
+      "https://m.media-amazon.com/images/I/31M38xzgEBL._AC_SY300_.jpg",
+      "https://m.media-amazon.com/images/I/81kjAcjS1iL._AC_UY300_.jpg",
+      "https://i.pinimg.com/736x/a9/22/25/a922254aec6b577bf459ccb515f9d463.jpg",
+      "https://i.ebayimg.com/images/g/at8AAOSwTsVn71Ub/s-l1200.png"
+    ],
+    "tags": [
+      "nike",
+      "air max",
+      "running shoes",
+      "sneakers",
+      "casual wear",
+      "comfort",
+      "sports shoes"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Adidas Ultraboost Running Shoes",
+    "brand": "Adidas",
+    "category": "Footwear",
+    "price": 17999,
+    "currency": "₹",
+    "description": "Adidas Ultraboost premium running shoes hain jo Boost cushioning technology ke saath maximum energy return aur all-day comfort provide karte hain. Yeh performance aur lifestyle dono ke liye perfect hain.",
+    "features": [
+      "Boost midsole for high energy return",
+      "Primeknit upper for flexible and adaptive fit",
+      "Stretchweb outsole with Continental rubber",
+      "Lightweight and breathable design",
+      "Responsive cushioning for running",
+      "Sock-like fit for comfort",
+      "Durable outsole for grip",
+      "Suitable for running and casual wear"
+    ],
+    "rating": 4.7,
+    "stock": 30,
+    "images": [
+      "https://www.solereview.com/wp-content/uploads/2022/01/adidas_Ultraboost_22_versus_Ultraboost_21.jpg",
+      "https://www.solereview.com/wp-content/uploads/2016/02/adidas_Ultra_Boost_ST_4.jpg",
+      "https://cdn.luxe.digital/media/20230412161134/adidas-ultraboost-review-popular-running-shoes-luxe-digital.jpg",
+      "https://5.imimg.com/data5/ANDROID/Default/2022/8/IT/UD/NC/16516658/product-jpeg-500x500.jpg"
+    ],
+    "tags": [
+      "adidas",
+      "ultraboost",
+      "running shoes",
+      "sports shoes",
+      "boost technology",
+      "premium footwear",
+      "comfort"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Samsung 55-inch QLED 4K Smart TV",
+    "brand": "Samsung",
+    "category": "Appliance",
+    "price": 59999,
+    "currency": "₹",
+    "description": "Samsung 55-inch QLED 4K Smart TV vibrant colors, high brightness aur smart features ke saath aata hai. Yeh Quantum Dot technology aur Tizen OS ke through immersive viewing experience provide karta hai.",
+    "features": [
+      "55-inch QLED 4K UHD Display",
+      "Quantum Dot Technology for vivid colors",
+      "4K UHD Resolution (3840 x 2160)",
+      "Smart TV with Tizen OS",
+      "HDR10+ support",
+      "Multiple HDMI and USB ports",
+      "Built-in Wi-Fi and Bluetooth",
+      "Voice assistant support (Alexa/Google Assistant)",
+      "Slim and bezel-less design",
+      "Dolby Digital Plus sound"
+    ],
+    "rating": 4.5,
+    "stock": 18,
+    "images": [
+      "https://m.media-amazon.com/images/I/91Cl+jxiO6L._AC_UF350,350_QL80_.jpg",
+      "https://img-cdn.publive.online/fit-in/640x430/filters:format(webp)/smstreet/media/media_files/2025/05/01/nyhdz4hCTXfsP36JcpYb.jpg",
+      "https://images.samsung.com/is/image/samsung/assets/africa_en/tvs/smart-tv/09-2025/one-ui-tizen/2025-smart-tv-03-one-ui-tizen-f03-one-ui-tizen-mo-others.jpg",
+      "https://m.media-amazon.com/images/I/710S-HwtiqL._AC_UF1000,1000_QL80_.jpg"
+    ],
+    "tags": [
+      "samsung",
+      "qled tv",
+      "smart tv",
+      "4k tv",
+      "television",
+      "home entertainment",
+      "hdr"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Apple Watch Series 9 (GPS, 45mm)",
+    "brand": "Apple",
+    "category": "Watch",
+    "price": 41900,
+    "currency": "₹",
+    "description": "Apple Watch Series 9 ek advanced smartwatch hai jo S9 chip, health tracking features aur Always-On Retina display ke saath aata hai. Yeh fitness aur daily smart tasks ke liye perfect companion hai.",
+    "features": [
+      "S9 SiP (System in Package) chip",
+      "Always-On Retina Display",
+      "Heart rate and blood oxygen monitoring",
+      "ECG app support",
+      "Fitness and activity tracking",
+      "Double Tap gesture control",
+      "GPS tracking",
+      "Water resistant (50m)",
+      "watchOS support",
+      "All-day battery life"
+    ],
+    "rating": 4.7,
+    "stock": 22,
+    "images": [
+      "https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/article/Apple-Watch-S9-Compass-app-Elevation-view-230912_inline.jpg.large.jpg",
+      "https://www.renderhub.com/madmix/apple-watch-series-7-all-colors/apple-watch-series-7-all-colors.jpg",
+      "https://m.media-amazon.com/images/I/81ujc3rj2iL._AC_UF350,350_QL80_.jpg",
+      "https://www.apple.com/newsroom/videos/apple-watch-s9-sip/posters/Apple-Watch-S9-SiP-230912.jpg.large_2x.jpg"
+    ],
+    "tags": [
+      "apple",
+      "smartwatch",
+      "apple watch",
+      "fitness tracker",
+      "wearable",
+      "ios",
+      "health"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Apple iPhone 16 Pro (128 GB)",
+    "brand": "Apple",
+    "category": "Mobile",
+    "price": 129900,
+    "currency": "₹",
+    "description": "Apple iPhone 16 Pro ek premium flagship smartphone hai jo powerful A18 Pro chip, advanced camera system aur titanium design ke saath aata hai. Yeh high performance aur pro-level photography ke liye design kiya gaya hai.",
+    "features": [
+      "6.3-inch Super Retina XDR Display (ProMotion 120Hz)",
+      "A18 Pro Chip",
+      "48MP Main + Ultra Wide + Telephoto Camera System",
+      "12MP Front Camera with Face ID",
+      "128GB Internal Storage",
+      "Titanium build design",
+      "Action Button and advanced controls",
+      "USB Type-C port",
+      "iOS (latest version)",
+      "5G Connectivity",
+      "Improved battery life"
+    ],
+    "rating": 4.8,
+    "stock": 28,
+    "images": [
+      "https://dakauf.eu/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-512GB-Black-Titanium.png",
+      "https://blisk.io/img/devicesInBlisk/preview/phones/iphone-16-pro-max.png",
+      "https://store.rsgsolutions.co.in/wp-content/uploads/2024/09/ap1-1024x576.jpg",
+      "https://cdn.shopify.com/s/files/1/0069/9292/0627/files/action-button-iphone-16.jpg"
+    ],
+    "tags": [
+      "apple",
+      "iphone 16 pro",
+      "ios",
+      "smartphone",
+      "flagship",
+      "5g",
+      "premium",
+      "pro camera"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Dell XPS 13 Laptop (Intel i7, 16GB RAM, 512GB SSD)",
+    "brand": "Dell",
+    "category": "Laptop",
+    "price": 139999,
+    "currency": "₹",
+    "description": "Dell XPS 13 ek premium ultrabook hai jo powerful performance aur ultra-slim design ke liye jaana jata hai.",
+    "features": [
+      "Intel Core i7 processor",
+      "13.4-inch InfinityEdge display",
+      "16GB RAM",
+      "512GB SSD",
+      "Lightweight design",
+      "Windows 11"
+    ],
+    "rating": 4.6,
+    "stock": 18,
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNcG0sMASRZRpOfxVq0KojNr5GSxZkuM610A&s.jpg",
+      "https://microless.com/cdn/products/9ab6a5ad2e3f47c9cb1e569a404983ce-hi.jpg",
+      "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2022/01/xpsblog3.png",
+      "https://i.insider.com/5d0d4a522516e92db213a58a?width=600&format=jpeg&auto=webp.jpg"
+    ],
+    "tags": [
+      "dell",
+      "xps",
+      "laptop",
+      "ultrabook"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "LG 260L Double Door Refrigerator",
+    "brand": "LG",
+    "category": "Appliance",
+    "price": 28999,
+    "currency": "₹",
+    "description": "LG double door refrigerator efficient cooling aur smart inverter technology ke saath aata hai.",
+    "features": [
+      "260L capacity",
+      "Smart inverter compressor",
+      "Frost-free operation",
+      "Toughened glass shelves",
+      "Energy efficient",
+      "Stabilizer free operation"
+    ],
+    "rating": 4.5,
+    "stock": 10,
+    "images": [
+      "https://tiimg.tistatic.com/fp/1/007/704/lg-260l-3-star-smart-inverter-frost-free-double-door-refrigerator-623.jpg",
+      "https://m.media-amazon.com/images/I/71q3OJQJDjL._AC_UF350,350_QL80_.jpg",
+      "https://mahajanelectronics.com/cdn/shop/files/71ueSZMhkZL._SL1500.jpg",
+      "https://m.media-amazon.com/images/I/619BYSwqJEL._AC_UF350,350_QL80_.jpg"
+    ],
+    "tags": [
+      "lg",
+      "refrigerator",
+      "appliance",
+      "cooling"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Boat Rockerz 550 Wireless Headphones",
+    "brand": "Boat",
+    "category": "Earphone",
+    "price": 1999,
+    "currency": "₹",
+    "description": "Boat Rockerz 550 affordable wireless headphones hain jo strong bass aur long battery life provide karte hain.",
+    "features": [
+      "Bluetooth connectivity",
+      "50mm drivers for deep bass",
+      "20-hour battery life",
+      "Comfortable ear cushions",
+      "Lightweight design"
+    ],
+    "rating": 4.3,
+    "stock": 60,
+    "images": [
+      "https://image.cdn.shpy.in/305289/SKU-1497_3-1726653636300.jpg",
+      "https://rukminim2.flixcart.com/image/480/640/xif0q/headphone/d/8/o/-original-imagz5qagzek7tjz.jpeg",
+      "https://m.media-amazon.com/images/I/81m8NamRRpL.jpg",
+      "https://media.tatacroma.com/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/246221_7_tfid0k.png"
+    ],
+    "tags": [
+      "boat",
+      "headphones",
+      "budget",
+      "wireless"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Noise ColorFit Pro 4 Smartwatch",
+    "brand": "Noise",
+    "category": "Watch",
+    "price": 3499,
+    "currency": "₹",
+    "description": "Noise ColorFit Pro 4 ek budget-friendly smartwatch hai jo fitness tracking aur stylish design ke saath aata hai.",
+    "features": [
+      "1.72-inch display",
+      "Heart rate monitor",
+      "SpO2 tracking",
+      "100+ watch faces",
+      "Water resistant",
+      "7-day battery life"
+    ],
+    "rating": 4.2,
+    "stock": 45,
+    "images": [
+      "https://m.media-amazon.com/images/I/61bm7UEdGAL._AC_UF1000,1000_QL80_.jpg",
+      "https://www.eourmart.com/cdn/shop/products/NoiseColor.png?v=1674219975&width=416",
+      "https://m.media-amazon.com/images/I/71P0IY7NK1L.jpg",
+      "https://suprememobiles.in/cdn/shop/files/NoisePulse2ProSmartWatch-Callhistory.png"
+    ],
+    "tags": [
+      "noise",
+      "smartwatch",
+      "fitness",
+      "budget"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Puma Men's Running Shoes",
+    "brand": "Puma",
+    "category": "Footwear",
+    "price": 3999,
+    "currency": "₹",
+    "description": "Puma running shoes lightweight aur comfortable design ke saath daily running aur casual wear ke liye perfect hain.",
+    "features": [
+      "Breathable mesh upper",
+      "Lightweight design",
+      "Rubber outsole grip",
+      "Cushioned sole",
+      "Flexible movement"
+    ],
+    "rating": 4.3,
+    "stock": 70,
+    "images": [
+      "https://sportsstation.in/cdn/shop/files/original-imahfhjgraammewk.jpg",
+      "https://assets.ajio.com/medias/sys_master/root/20241218/iwsC/6762d04e0f47f80c870a07b5/-473Wx593H-469652237-black-MODEL.jpg",
+      "https://cdn.runrepeat.com/storage/gallery/product_primary/40149/puma-all-pro-nitro-21216751-720.jpg",
+      "https://assets.ajio.com/medias/sys_master/root1/20260101/pivK/69558ed87ef0c7385c3aace1/-1117Wx1400H-451031091-black-MODEL3.jpg"
+    ],
+    "tags": [
+      "puma",
+      "shoes",
+      "running",
+      "men"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Allen Solly Men's Formal Shirt",
+    "brand": "Allen Solly",
+    "category": "Men",
+    "price": 1899,
+    "currency": "₹",
+    "description": "Allen Solly formal shirt office aur formal occasions ke liye perfect hai.",
+    "features": [
+      "100% cotton fabric",
+      "Regular fit",
+      "Breathable material",
+      "Wrinkle resistant"
+    ],
+    "rating": 4.4,
+    "stock": 80,
+    "images": [
+      "https://imagescdn.allensolly.com/img/app/product/3/39760768-16609930.jpg",
+      "https://imagescdn.allensolly.com/img/app/product/3/39725030-15041251.jpg",
+      "https://m.media-amazon.com/images/I/51WruXep7PL._SY679_.jpg",
+      "https://imagescdn.allensolly.com/img/app/product/3/39725030-15041251.jpg"
+    ],
+    "tags": [
+      "shirt",
+      "formal",
+      "men",
+      "office wear"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Red Tape Men's Casual Shoes",
+    "brand": "Red Tape",
+    "category": "Footwear",
+    "price": 2999,
+    "currency": "₹",
+    "description": "Red Tape casual shoes stylish aur durable leather finish ke saath daily wear ke liye best hain.",
+    "features": [
+      "Premium leather finish",
+      "Comfortable insole",
+      "Durable outsole",
+      "Stylish casual design"
+    ],
+    "rating": 4.2,
+    "stock": 50,
+    "images": [
+      "https://redtape.com/cdn/shop/files/RTE5593B_1.jpg",
+      "https://redtape.com/cdn/shop/files/1-800x800_8c1221a9-5704-4a3a-9bd8-c5348486daf7.jpg",
+      "https://m.media-amazon.com/images/I/71pZnf+Lb5L._AC_UY1000_.jpg",
+      "https://i.pinimg.com/736x/3c/57/86/3c5786db183aac3768f1112d970a996c.jpg"
+    ],
+    "tags": [
+      "red tape",
+      "casual shoes",
+      "men"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Levi's Men's Slim Fit Jeans",
+    "brand": "Levi's",
+    "category": "Men",
+    "price": 2499,
+    "currency": "₹",
+    "description": "Levi's slim fit jeans durable denim aur stylish look ke liye famous hain.",
+    "features": [
+      "Slim fit design",
+      "High-quality denim",
+      "Comfort stretch",
+      "Classic 5-pocket style"
+    ],
+    "rating": 4.6,
+    "stock": 65,
+    "images": [
+      "https://assets.ajio.com/medias/sys_master/root1/20250925/v0X0/68d51aa13d468c61ab250b5d/-473Wx593H-469762125-darkindigo-MODEL.jpg",
+      "https://levi.in/cdn/shop/files/001H90014_04_Detail.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhzTP_2aTV6ywLTTA_fT6Ahyb4VDuwxg1dQg&s",
+      "https://i.pinimg.com/474x/a9/22/66/a92266399a6cf5b1b0d2313f337444db.jpg"
+    ],
+    "tags": [
+      "jeans",
+      "denim",
+      "men",
+      "levis"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Biba Women's Printed Kurti",
+    "brand": "Biba",
+    "category": "Women",
+    "price": 1599,
+    "currency": "₹",
+    "description": "Biba kurti ethnic wear ke liye perfect hai jo festivals aur daily wear dono ke liye suitable hai.",
+    "features": [
+      "Soft cotton fabric",
+      "Printed design",
+      "Comfortable fit",
+      "Suitable for casual and festive wear"
+    ],
+    "rating": 4.3,
+    "stock": 75,
+    "images": [
+      "https://pictures.kartmax.in/live/inside/800x800/sites/9s145MyZrWdIAwpU0JYS/product-images/biba_red_silk_kurti_for_festive_1728889023as3086496_1.jpg",
+      "https://assets.ajio.com/medias/sys_master/root/20240919/njPA/66ec2ee1f9b8ef490b524fe2/-473Wx593H-469672847-red-MODEL.jpg",
+      "https://img.tatacliq.com/images/i25//437Wx649H/MP000000027265518_437Wx649H_202507061115081.jpeg",
+      "https://images.biba.in/dw/image/v2/BKQK_PRD/on/demandware.static/-/Sites-biba-product-catalog/default/dwa6076453/images/ss24/sngnrptchwrk20153ss24mintblu_1.jpg"
+    ],
+    "tags": [
+      "kurti",
+      "women",
+      "ethnic",
+      "biba"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Zara Women's Party Wear Dress",
+    "brand": "Zara",
+    "category": "Women",
+    "price": 3999,
+    "currency": "₹",
+    "description": "Zara dress stylish aur modern design ke saath party aur special occasions ke liye perfect hai.",
+    "features": [
+      "Elegant design",
+      "Soft fabric",
+      "Slim fit",
+      "Perfect for parties"
+    ],
+    "rating": 4.5,
+    "stock": 40,
+    "images": [
+      "https://images.jdmagicbox.com/quickquotes/images_main/zara-dresses-4614-239540127-1p949.jpg",
+      "https://5.imimg.com/data5/ECOM/Default/2023/1/NR/YJ/QO/108860493/hf4d86d86377040158b4ebd7454b5503et-500x500.jpg",
+      "https://i.pinimg.com/736x/e0/e8/61/e0e861d8116a3dc896e8d4b1367764e0.jpg",
+      "https://i.pinimg.com/474x/5a/84/5f/5a845fb0858f7908427696026bd7b49b.jpg"
+    ],
+    "tags": [
+      "dress",
+      "women",
+      "party wear",
+      "zara"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Nike Men's Graphic T-Shirt",
+    "brand": "Nike",
+    "category": "Men",
+    "price": 1499,
+    "currency": "₹",
+    "description": "Nike graphic t-shirt comfortable cotton fabric aur sporty look ke saath aata hai.",
+    "features": [
+      "100% cotton fabric",
+      "Regular fit",
+      "Breathable material",
+      "Durable print"
+    ],
+    "rating": 4.4,
+    "stock": 60,
+    "images": [
+      "nike tshirt black",
+      "nike logo tshirt",
+      "nike casual outfit",
+      "nike cotton tshirt"
+    ],
+    "tags": [
+      "nike",
+      "tshirt",
+      "men",
+      "casual"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "H&M Basic Cotton T-Shirt",
+    "brand": "H&M",
+    "category": "Men",
+    "price": 799,
+    "currency": "₹",
+    "description": "H&M basic t-shirt daily wear ke liye simple aur comfortable option hai.",
+    "features": [
+      "Soft cotton",
+      "Slim fit",
+      "Lightweight",
+      "Easy to style"
+    ],
+    "rating": 4.2,
+    "stock": 80,
+    "images": [
+      "hm white tshirt",
+      "hm plain tshirt",
+      "hm outfit",
+      "hm cotton"
+    ],
+    "tags": [
+      "hm",
+      "tshirt",
+      "basic",
+      "men"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Dior Sauvage Eau De Parfum",
+    "brand": "Dior",
+    "category": "Perfume",
+    "price": 8999,
+    "currency": "₹",
+    "description": "Dior Sauvage ek premium fragrance hai jo fresh aur long-lasting scent provide karta hai.",
+    "features": [
+      "Long-lasting fragrance",
+      "Fresh and spicy notes",
+      "Premium packaging",
+      "Suitable for all occasions"
+    ],
+    "rating": 4.8,
+    "stock": 25,
+    "images": [
+      "dior sauvage bottle",
+      "dior packaging",
+      "dior spray",
+      "dior perfume"
+    ],
+    "tags": [
+      "dior",
+      "perfume",
+      "fragrance",
+      "men"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Babyhug Kids Cotton T-Shirt",
+    "brand": "Babyhug",
+    "category": "Kids",
+    "price": 499,
+    "currency": "₹",
+    "description": "Babyhug kids t-shirt soft cotton aur cute designs ke saath aata hai.",
+    "features": [
+      "Soft cotton fabric",
+      "Skin-friendly",
+      "Cartoon prints",
+      "Comfortable fit"
+    ],
+    "rating": 4.3,
+    "stock": 90,
+    "images": [
+      "babyhug tshirt",
+      "kids tshirt design",
+      "cartoon tshirt",
+      "kids cotton"
+    ],
+    "tags": [
+      "kids",
+      "tshirt",
+      "babyhug"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Bella Vita Luxury Perfume",
+    "brand": "Bella Vita",
+    "category": "Perfume",
+    "price": 999,
+    "currency": "₹",
+    "description": "Bella Vita affordable perfume hai jo daily use ke liye perfect hai.",
+    "features": [
+      "Long-lasting",
+      "Affordable price",
+      "Pleasant fragrance",
+      "Compact design"
+    ],
+    "rating": 4.2,
+    "stock": 100,
+    "images": [
+      "bella vita bottle",
+      "bella vita set",
+      "bella vita spray",
+      "bella vita perfume"
+    ],
+    "tags": [
+      "bella vita",
+      "perfume",
+      "budget"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Puma Kids Running Shoes",
+    "brand": "Puma",
+    "category": "Footwear",
+    "price": 2499,
+    "currency": "₹",
+    "description": "Puma kids shoes lightweight aur durable design ke saath aate hain.",
+    "features": [
+      "Lightweight design",
+      "Durable sole",
+      "Comfortable fit",
+      "Colorful design"
+    ],
+    "rating": 4.3,
+    "stock": 55,
+    "images": [
+      "puma kids shoes",
+      "kids sneakers",
+      "puma colorful",
+      "kids running shoes"
+    ],
+    "tags": [
+      "kids",
+      "shoes",
+      "puma"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Hopscotch Girls Party Dress",
+    "brand": "Hopscotch",
+    "category": "Kids",
+    "price": 1299,
+    "currency": "₹",
+    "description": "Hopscotch girls dress party wear ke liye stylish aur comfortable hai.",
+    "features": [
+      "Soft fabric",
+      "Stylish design",
+      "Comfortable wear",
+      "Lightweight"
+    ],
+    "rating": 4.4,
+    "stock": 40,
+    "images": [
+      "hopscotch dress",
+      "kids party dress",
+      "girls dress",
+      "kids outfit"
+    ],
+    "tags": [
+      "kids",
+      "dress",
+      "girls"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Samsung 253L Double Door Refrigerator",
+    "brand": "Samsung",
+    "category": "Appliance",
+    "price": 30999,
+    "currency": "₹",
+    "description": "Samsung refrigerator digital inverter technology ke saath efficient cooling provide karta hai.",
+    "features": [
+      "253L capacity",
+      "Digital inverter compressor",
+      "Frost-free",
+      "Energy efficient"
+    ],
+    "rating": 4.5,
+    "stock": 20,
+    "images": [
+      "samsung fridge exterior",
+      "samsung fridge interior",
+      "samsung inverter",
+      "samsung kitchen"
+    ],
+    "tags": [
+      "samsung",
+      "refrigerator",
+      "appliance"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Bata Kids Sandals",
+    "brand": "Bata",
+    "category": "Kids",
+    "price": 999,
+    "currency": "₹",
+    "description": "Bata kids sandals daily wear ke liye comfortable aur durable option hain.",
+    "features": [
+      "Soft sole",
+      "Adjustable straps",
+      "Durable material",
+      "Comfortable fit"
+    ],
+    "rating": 4.2,
+    "stock": 70,
+    "images": [
+      "bata kids sandals",
+      "kids sandals",
+      "bata footwear",
+      "kids design"
+    ],
+    "tags": [
+      "kids",
+      "sandals",
+      "bata"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "OnePlus Nord CE 3 5G (128GB, 8GB RAM)",
+    "brand": "OnePlus",
+    "category": "Mobile",
+    "price": 26999,
+    "currency": "₹",
+    "description": "OnePlus Nord CE 3 smooth performance aur fast charging ke liye popular hai.",
+    "features": [
+      "Snapdragon processor",
+      "6.7-inch AMOLED display",
+      "50MP camera",
+      "Fast charging"
+    ],
+    "rating": 4.4,
+    "stock": 40,
+    "images": [
+      "oneplus nord design",
+      "oneplus camera",
+      "oneplus display",
+      "oneplus colors"
+    ],
+    "tags": [
+      "oneplus",
+      "smartphone"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Realme Narzo 60 5G",
+    "brand": "Realme",
+    "category": "Mobile",
+    "price": 17999,
+    "currency": "₹",
+    "description": "Realme Narzo budget-friendly smartphone hai jo stylish design aur good performance deta hai.",
+    "features": [
+      "6.6-inch display",
+      "5000mAh battery",
+      "64MP camera",
+      "5G support"
+    ],
+    "rating": 4.2,
+    "stock": 60,
+    "images": [
+      "realme design",
+      "realme camera",
+      "realme display",
+      "realme color"
+    ],
+    "tags": [
+      "realme",
+      "phone"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Titan Men's Analog Watch",
+    "brand": "Titan",
+    "category": "Watch",
+    "price": 2999,
+    "currency": "₹",
+    "description": "Titan analog watch elegant design ke saath formal occasions ke liye perfect hai.",
+    "features": [
+      "Quartz movement",
+      "Leather strap",
+      "Water resistant",
+      "Classic design"
+    ],
+    "rating": 4.4,
+    "stock": 50,
+    "images": [
+      "titan watch",
+      "titan dial",
+      "titan strap",
+      "titan wrist"
+    ],
+    "tags": [
+      "titan",
+      "watch"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Skybags Casual Backpack",
+    "brand": "Skybags",
+    "category": "Bag",
+    "price": 1499,
+    "currency": "₹",
+    "description": "Skybags backpack daily use aur college ke liye lightweight aur stylish option hai.",
+    "features": [
+      "Multiple compartments",
+      "Water-resistant material",
+      "Lightweight design",
+      "Comfortable shoulder straps"
+    ],
+    "rating": 4.3,
+    "stock": 70,
+    "images": [
+      "skybags backpack",
+      "skybags compartments",
+      "skybags front",
+      "skybags side"
+    ],
+    "tags": [
+      "bag",
+      "backpack",
+      "college"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Wildcraft Laptop Bag",
+    "brand": "Wildcraft",
+    "category": "Bag",
+    "price": 1999,
+    "currency": "₹",
+    "description": "Wildcraft laptop bag office use ke liye durable aur secure option hai.",
+    "features": [
+      "Padded laptop compartment",
+      "Durable material",
+      "Adjustable strap",
+      "Professional design"
+    ],
+    "rating": 4.4,
+    "stock": 50,
+    "images": [
+      "wildcraft laptop bag",
+      "wildcraft inside",
+      "wildcraft strap",
+      "wildcraft handle"
+    ],
+    "tags": [
+      "bag",
+      "laptop bag",
+      "office"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Fastrack Smartwatch",
+    "brand": "Fastrack",
+    "category": "Watch",
+    "price": 3999,
+    "currency": "₹",
+    "description": "Fastrack smartwatch stylish design aur fitness tracking features ke saath aata hai.",
+    "features": [
+      "Heart rate monitor",
+      "SpO2 tracking",
+      "Multiple watch faces",
+      "Bluetooth connectivity"
+    ],
+    "rating": 4.3,
+    "stock": 45,
+    "images": [
+      "fastrack display",
+      "fastrack fitness",
+      "fastrack strap",
+      "fastrack features"
+    ],
+    "tags": [
+      "fastrack",
+      "smartwatch"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "American Tourister Trolley Bag",
+    "brand": "American Tourister",
+    "category": "Bag",
+    "price": 4999,
+    "currency": "₹",
+    "description": "Travel trolley bag long trips ke liye spacious aur durable hai.",
+    "features": [
+      "Hard shell body",
+      "360-degree wheels",
+      "Expandable storage",
+      "Secure lock system"
+    ],
+    "rating": 4.6,
+    "stock": 25,
+    "images": [
+      "trolley bag",
+      "travel suitcase",
+      "bag wheels",
+      "bag compartments"
+    ],
+    "tags": [
+      "travel",
+      "luggage",
+      "bag"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Remote Control Racing Car",
+    "brand": "Generic",
+    "category": "Kids",
+    "price": 1499,
+    "currency": "₹",
+    "description": "Remote control car kids ke liye fun aur interactive toy hai.",
+    "features": [
+      "Wireless remote control",
+      "Fast speed",
+      "Rechargeable battery",
+      "Durable build"
+    ],
+    "rating": 4.3,
+    "stock": 60,
+    "images": [
+      "rc car",
+      "toy racing",
+      "remote control",
+      "kids car"
+    ],
+    "tags": [
+      "toy",
+      "car",
+      "kids"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "boAt Airdopes 141 TWS Earbuds",
+    "brand": "boAt",
+    "category": "Earphone",
+    "price": 1299,
+    "currency": "₹",
+    "description": "boAt Airdopes 141 affordable wireless earbuds hain jo long battery life provide karte hain.",
+    "features": [
+      "Bluetooth connectivity",
+      "42-hour battery backup",
+      "Low latency mode",
+      "Fast charging"
+    ],
+    "rating": 4.3,
+    "stock": 80,
+    "images": [
+      "boat earbuds",
+      "boat case",
+      "boat in ear",
+      "boat charging"
+    ],
+    "tags": [
+      "boat",
+      "earbuds"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "LEGO Classic Bricks Set",
+    "brand": "LEGO",
+    "category": "Kids",
+    "price": 2499,
+    "currency": "₹",
+    "description": "LEGO bricks creativity aur learning ke liye best building toy hai.",
+    "features": [
+      "Creative building blocks",
+      "Safe for kids",
+      "Colorful pieces",
+      "Improves creativity"
+    ],
+    "rating": 4.7,
+    "stock": 40,
+    "images": [
+      "lego bricks",
+      "lego kids",
+      "lego box",
+      "lego play"
+    ],
+    "tags": [
+      "lego",
+      "toy",
+      "kids"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Lavie Women's Handbag",
+    "brand": "Lavie",
+    "category": "Bag",
+    "price": 2499,
+    "currency": "₹",
+    "description": "Lavie handbag stylish aur elegant design ke saath daily use ke liye perfect hai.",
+    "features": [
+      "Premium finish",
+      "Spacious interior",
+      "Stylish design",
+      "Lightweight"
+    ],
+    "rating": 4.5,
+    "stock": 40,
+    "images": [
+      "lavie handbag",
+      "lavie style",
+      "lavie purse",
+      "lavie outfit"
+    ],
+    "tags": [
+      "women",
+      "handbag",
+      "fashion"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "JBL C100SI Wired Earphones",
+    "brand": "JBL",
+    "category": "Earphone",
+    "price": 699,
+    "currency": "₹",
+    "description": "JBL wired earphones deep bass aur clear sound ke liye popular hain.",
+    "features": [
+      "Deep bass sound",
+      "Lightweight design",
+      "In-line microphone",
+      "3.5mm jack"
+    ],
+    "rating": 4.2,
+    "stock": 100,
+    "images": [
+      "jbl earphones",
+      "jbl cable",
+      "jbl in ear",
+      "jbl bass"
+    ],
+    "tags": [
+      "jbl",
+      "earphones"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Realme Buds Air 5",
+    "brand": "Realme",
+    "category": "Earphone",
+    "price": 3699,
+    "currency": "₹",
+    "description": "Realme Buds Air 5 advanced ANC aur clear sound quality ke saath aate hain.",
+    "features": [
+      "Active Noise Cancellation",
+      "High-quality sound",
+      "Bluetooth 5.3",
+      "Long battery life"
+    ],
+    "rating": 4.5,
+    "stock": 45,
+    "images": [
+      "realme buds",
+      "realme case",
+      "realme design",
+      "realme in ear"
+    ],
+    "tags": [
+      "realme",
+      "buds"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "JBL Flip 5 Bluetooth Speaker",
+    "brand": "JBL",
+    "category": "Speaker",
+    "price": 8999,
+    "currency": "₹",
+    "description": "JBL Flip 5 powerful portable speaker hai jo outdoor use ke liye perfect hai.",
+    "features": [
+      "Powerful bass",
+      "Waterproof design",
+      "Portable",
+      "Long battery life"
+    ],
+    "rating": 4.6,
+    "stock": 30,
+    "images": [
+      "jbl speaker",
+      "jbl outdoor",
+      "jbl waterproof",
+      "jbl colors"
+    ],
+    "tags": [
+      "jbl",
+      "speaker"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Sony MDR-EX155AP Wired Earphones",
+    "brand": "Sony",
+    "category": "Earphone",
+    "price": 1499,
+    "currency": "₹",
+    "description": "Sony earphones clear audio aur comfortable fit ke liye known hain.",
+    "features": [
+      "High-quality sound",
+      "Comfortable earbuds",
+      "Built-in mic",
+      "Durable cable"
+    ],
+    "rating": 4.4,
+    "stock": 70,
+    "images": [
+      "sony earphones",
+      "sony cable",
+      "sony design",
+      "sony in ear"
+    ],
+    "tags": [
+      "sony",
+      "earphones"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "boAt Stone 650 Bluetooth Speaker",
+    "brand": "boAt",
+    "category": "Speaker",
+    "price": 2499,
+    "currency": "₹",
+    "description": "boAt Stone 650 budget-friendly speaker hai jo strong sound output deta hai.",
+    "features": [
+      "10W sound output",
+      "Bluetooth connectivity",
+      "Water resistant",
+      "Compact design"
+    ],
+    "rating": 4.3,
+    "stock": 55,
+    "images": [
+      "boat speaker",
+      "boat design",
+      "boat outdoor",
+      "boat bluetooth"
+    ],
+    "tags": [
+      "boat",
+      "speaker"
+    ]
+  }
+]
