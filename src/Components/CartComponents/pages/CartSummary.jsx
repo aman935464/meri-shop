@@ -1,20 +1,11 @@
 import React from "react";
+import usePriceCalc from "../../../Hooks/usePriceCalc";
 import useCartStore from "../../../store/useCartStore";
 
 export default function CartSummary() {
-  const { cart } = useCartStore();
-  const totalQuantity = cart.reduce((total, item) => {
-    return total + item.quantity;
-  }, 0);
-  const subTotal = cart.reduce((total, item) => {
-    return total + item.price * item.quantity;
-  }, 0);
-  const discountRate = 25 / 100;
-  const taxRate = 18 / 100;
-  const discount = Number((subTotal * discountRate).toFixed(1));
-  const tax = Number(((subTotal - discount) * taxRate).toFixed(1));
-  const totalAmount = Number(subTotal - discount + tax).toFixed(1);
-
+  const {cart} = useCartStore();
+  const {totalQuantity, subTotal, discountRate, taxRate, discount, tax, totalAmount} = usePriceCalc();
+  
   return (
     <>
       <h1>Price Details</h1>

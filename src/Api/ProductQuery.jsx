@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 
 const ProductApi = async () => {
   let res = await axios.get(
-    "https://mocki.io/v1/93d0e4b1-67ef-406f-9fcc-512222689736",
+    "https://mocki.io/v1/625d514d-cc7e-4437-9fc1-894b2873eaa9",
   );
   return res.data;
 };

@@ -18,13 +18,15 @@
 }
 
 .cart-container .cart-sec {
+  border-top: 5px solid rgb(164, 221, 243);
+  border-left: 10px solid skyblue;
   display: flex;
   align-items: center;
   gap: clamp(10px, 2vw, 20px);
   padding: clamp(10px, 2vw, 15px);
   background-color: var(--bg);
   border-radius: 15px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.596);
+  box-shadow: 0 5px -20px rgba(0, 0, 0, 0.596);
 
   transition: all 0.3s ease;
   cursor: pointer;
@@ -222,6 +224,8 @@
 }
 
 #cart-summary {
+  border-top: 5px solid skyblue;
+  border-left: 10px solid skyblue;
   align-items: center;
   display: grid;
   gap: clamp(2px, 1vw, 5px);

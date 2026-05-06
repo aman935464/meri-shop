@@ -5,6 +5,7 @@
     "brand": "Samsung",
     "category": "Mobile",
     "price": 74999,
+    "discount": 16,
     "currency": "₹",
     "description": "Samsung Galaxy S23 5G ek premium flagship smartphone hai jo powerful Snapdragon 8 Gen 2 processor, compact design aur high-end camera performance ke saath aata hai.",
     "features": [
@@ -44,6 +45,7 @@
     "brand": "Sony",
     "category": "Earphone",
     "price": 29990,
+    "discount": 12,
     "currency": "₹",
     "description": "Sony WH-1000XM5 premium over-ear wireless headphones hain jo industry-leading noise cancellation, crystal clear sound quality aur long battery life provide karte hain.",
     "features": [
@@ -84,6 +86,7 @@
     "brand": "Apple",
     "category": "Mobile",
     "price": 79900,
+    "discount": 16,
     "currency": "₹",
     "description": "Apple iPhone 15 ek premium smartphone hai jo A16 Bionic chip, advanced dual camera system aur Dynamic Island display ke saath aata hai. Isme USB-C charging aur improved battery performance bhi diya gaya hai.",
     "features": [
@@ -123,6 +126,7 @@
     "brand": "Apple",
     "category": "Laptop",
     "price": 114900,
+    "discount": 20,
     "currency": "₹",
     "description": "Apple MacBook Air M2 ek ultra-thin aur lightweight laptop hai jo powerful M2 chip ke saath aata hai. Yeh silent performance, long battery life aur premium build quality provide karta hai.",
     "features": [
@@ -162,6 +166,7 @@
     "brand": "Canon",
     "category": "Camera",
     "price": 139999,
+    "discount": 16,
     "currency": "₹",
     "description": "Canon EOS R7 ek high-performance APS-C mirrorless camera hai jo fast autofocus, high-speed shooting aur 4K video recording ke saath professionals aur enthusiasts ke liye perfect hai.",
     "features": [
@@ -200,6 +205,7 @@
     "brand": "Nike",
     "category": "Footwear",
     "price": 12995,
+    "discount": 10,
     "currency": "₹",
     "description": "Nike Air Max 270 stylish lifestyle running shoes hain jo maximum comfort aur modern design ke liye famous hain. Inka large Air unit heel cushioning ke liye specially design kiya gaya hai.",
     "features": [
@@ -236,6 +242,7 @@
     "brand": "Adidas",
     "category": "Footwear",
     "price": 17999,
+    "discount": 12,
     "currency": "₹",
     "description": "Adidas Ultraboost premium running shoes hain jo Boost cushioning technology ke saath maximum energy return aur all-day comfort provide karte hain. Yeh performance aur lifestyle dono ke liye perfect hain.",
     "features": [
@@ -272,6 +279,7 @@
     "brand": "Samsung",
     "category": "Appliance",
     "price": 59999,
+    "discount": 16,
     "currency": "₹",
     "description": "Samsung 55-inch QLED 4K Smart TV vibrant colors, high brightness aur smart features ke saath aata hai. Yeh Quantum Dot technology aur Tizen OS ke through immersive viewing experience provide karta hai.",
     "features": [
@@ -310,6 +318,7 @@
     "brand": "Apple",
     "category": "Watch",
     "price": 41900,
+    "discount": 12,
     "currency": "₹",
     "description": "Apple Watch Series 9 ek advanced smartwatch hai jo S9 chip, health tracking features aur Always-On Retina display ke saath aata hai. Yeh fitness aur daily smart tasks ke liye perfect companion hai.",
     "features": [
@@ -348,6 +357,7 @@
     "brand": "Apple",
     "category": "Mobile",
     "price": 129900,
+    "discount": 20,
     "currency": "₹",
     "description": "Apple iPhone 16 Pro ek premium flagship smartphone hai jo powerful A18 Pro chip, advanced camera system aur titanium design ke saath aata hai. Yeh high performance aur pro-level photography ke liye design kiya gaya hai.",
     "features": [
@@ -388,6 +398,7 @@
     "brand": "Dell",
     "category": "Laptop",
     "price": 139999,
+    "discount": 20,
     "currency": "₹",
     "description": "Dell XPS 13 ek premium ultrabook hai jo powerful performance aur ultra-slim design ke liye jaana jata hai.",
     "features": [
@@ -419,6 +430,7 @@
     "brand": "LG",
     "category": "Appliance",
     "price": 28999,
+    "discount": 16,
     "currency": "₹",
     "description": "LG double door refrigerator efficient cooling aur smart inverter technology ke saath aata hai.",
     "features": [
@@ -450,6 +462,7 @@
     "brand": "Boat",
     "category": "Earphone",
     "price": 1999,
+    "discount": 6,
     "currency": "₹",
     "description": "Boat Rockerz 550 affordable wireless headphones hain jo strong bass aur long battery life provide karte hain.",
     "features": [
@@ -480,6 +493,7 @@
     "brand": "Noise",
     "category": "Watch",
     "price": 3499,
+    "discount": 3,
     "currency": "₹",
     "description": "Noise ColorFit Pro 4 ek budget-friendly smartwatch hai jo fitness tracking aur stylish design ke saath aata hai.",
     "features": [
@@ -511,6 +525,7 @@
     "brand": "Puma",
     "category": "Footwear",
     "price": 3999,
+    "discount": 2,
     "currency": "₹",
     "description": "Puma running shoes lightweight aur comfortable design ke saath daily running aur casual wear ke liye perfect hain.",
     "features": [
@@ -541,6 +556,7 @@
     "brand": "Allen Solly",
     "category": "Men",
     "price": 1899,
+    "discount": 4,
     "currency": "₹",
     "description": "Allen Solly formal shirt office aur formal occasions ke liye perfect hai.",
     "features": [
@@ -570,6 +586,7 @@
     "brand": "Red Tape",
     "category": "Footwear",
     "price": 2999,
+    "discount": 5,
     "currency": "₹",
     "description": "Red Tape casual shoes stylish aur durable leather finish ke saath daily wear ke liye best hain.",
     "features": [
@@ -598,6 +615,7 @@
     "brand": "Levi's",
     "category": "Men",
     "price": 2499,
+    "discount": 4,
     "currency": "₹",
     "description": "Levi's slim fit jeans durable denim aur stylish look ke liye famous hain.",
     "features": [
@@ -627,6 +645,7 @@
     "brand": "Biba",
     "category": "Women",
     "price": 1599,
+    "discount": 4,
     "currency": "₹",
     "description": "Biba kurti ethnic wear ke liye perfect hai jo festivals aur daily wear dono ke liye suitable hai.",
     "features": [
@@ -656,6 +675,7 @@
     "brand": "Zara",
     "category": "Women",
     "price": 3999,
+    "discount": 4,
     "currency": "₹",
     "description": "Zara dress stylish aur modern design ke saath party aur special occasions ke liye perfect hai.",
     "features": [
@@ -685,6 +705,7 @@
     "brand": "Nike",
     "category": "Men",
     "price": 1499,
+    "discount": 4,
     "currency": "₹",
     "description": "Nike graphic t-shirt comfortable cotton fabric aur sporty look ke saath aata hai.",
     "features": [
@@ -714,6 +735,7 @@
     "brand": "H&M",
     "category": "Men",
     "price": 799,
+    "discount": 2,
     "currency": "₹",
     "description": "H&M basic t-shirt daily wear ke liye simple aur comfortable option hai.",
     "features": [
@@ -743,6 +765,7 @@
     "brand": "Dior",
     "category": "Perfume",
     "price": 8999,
+    "discount": 6,
     "currency": "₹",
     "description": "Dior Sauvage ek premium fragrance hai jo fresh aur long-lasting scent provide karta hai.",
     "features": [
@@ -772,6 +795,7 @@
     "brand": "Babyhug",
     "category": "Kids",
     "price": 499,
+    "discount": 5,
     "currency": "₹",
     "description": "Babyhug kids t-shirt soft cotton aur cute designs ke saath aata hai.",
     "features": [
@@ -800,6 +824,7 @@
     "brand": "Bella Vita",
     "category": "Perfume",
     "price": 999,
+    "discount": 6,
     "currency": "₹",
     "description": "Bella Vita affordable perfume hai jo daily use ke liye perfect hai.",
     "features": [
@@ -828,6 +853,7 @@
     "brand": "Puma",
     "category": "Footwear",
     "price": 2499,
+    "discount": 6,
     "currency": "₹",
     "description": "Puma kids shoes lightweight aur durable design ke saath aate hain.",
     "features": [
@@ -856,6 +882,7 @@
     "brand": "Hopscotch",
     "category": "Kids",
     "price": 1299,
+    "discount": 6,
     "currency": "₹",
     "description": "Hopscotch girls dress party wear ke liye stylish aur comfortable hai.",
     "features": [
@@ -884,6 +911,7 @@
     "brand": "Samsung",
     "category": "Appliance",
     "price": 30999,
+    "discount": 16,
     "currency": "₹",
     "description": "Samsung refrigerator digital inverter technology ke saath efficient cooling provide karta hai.",
     "features": [
@@ -912,6 +940,7 @@
     "brand": "Bata",
     "category": "Kids",
     "price": 999,
+    "discount": 6,
     "currency": "₹",
     "description": "Bata kids sandals daily wear ke liye comfortable aur durable option hain.",
     "features": [
@@ -940,6 +969,7 @@
     "brand": "OnePlus",
     "category": "Mobile",
     "price": 26999,
+    "discount": 12,
     "currency": "₹",
     "description": "OnePlus Nord CE 3 smooth performance aur fast charging ke liye popular hai.",
     "features": [
@@ -967,6 +997,7 @@
     "brand": "Realme",
     "category": "Mobile",
     "price": 17999,
+    "discount": 10,
     "currency": "₹",
     "description": "Realme Narzo budget-friendly smartphone hai jo stylish design aur good performance deta hai.",
     "features": [
@@ -994,6 +1025,7 @@
     "brand": "Titan",
     "category": "Watch",
     "price": 2999,
+    "discount": 5,
     "currency": "₹",
     "description": "Titan analog watch elegant design ke saath formal occasions ke liye perfect hai.",
     "features": [
@@ -1021,6 +1053,7 @@
     "brand": "Skybags",
     "category": "Bag",
     "price": 1499,
+    "discount": 5,
     "currency": "₹",
     "description": "Skybags backpack daily use aur college ke liye lightweight aur stylish option hai.",
     "features": [
@@ -1049,6 +1082,7 @@
     "brand": "Wildcraft",
     "category": "Bag",
     "price": 1999,
+    "discount": 5,
     "currency": "₹",
     "description": "Wildcraft laptop bag office use ke liye durable aur secure option hai.",
     "features": [
@@ -1077,6 +1111,7 @@
     "brand": "Fastrack",
     "category": "Watch",
     "price": 3999,
+    "discount": 5,
     "currency": "₹",
     "description": "Fastrack smartwatch stylish design aur fitness tracking features ke saath aata hai.",
     "features": [
@@ -1104,6 +1139,7 @@
     "brand": "American Tourister",
     "category": "Bag",
     "price": 4999,
+    "discount": 5,
     "currency": "₹",
     "description": "Travel trolley bag long trips ke liye spacious aur durable hai.",
     "features": [
@@ -1132,7 +1168,8 @@
     "brand": "Frendo",
     "category": "Kids",
     "price": 549,
-    "currency": "INR",
+    "discount": 2,
+    "currency": "₹",
     "description": "Frendo 1:24 scale rechargeable remote control car ek fun racing toy hai jo kids aur beginners ke liye high-speed driving aur easy controls provide karta hai.",
     "features": [
       "1:24 scale high-speed racing design",
@@ -1170,7 +1207,8 @@
     "brand": "boAt",
     "category": "Earphone",
     "price": 899,
-    "currency": "INR",
+    "discount": 5,
+    "currency": "₹",
     "description": "boAt Airdopes 161 advanced 4-mic ENx technology ke saath aane wale budget wireless earbuds hain jo clear calling, long battery aur bass-heavy sound provide karte hain.",
     "features": [
       "4-Mic ENx Technology (clear calling noise reduction)",
@@ -1211,6 +1249,7 @@
     "brand": "LEGO",
     "category": "Kids",
     "price": 2499,
+    "discount": 5,
     "currency": "₹",
     "description": "LEGO bricks creativity aur learning ke liye best building toy hai.",
     "features": [
@@ -1240,6 +1279,7 @@
     "brand": "Lavie",
     "category": "Bag",
     "price": 2499,
+    "discount": 5,
     "currency": "₹",
     "description": "Lavie handbag stylish aur elegant design ke saath daily use ke liye perfect hai.",
     "features": [
@@ -1270,7 +1310,8 @@
     "brand": "ZedPunch",
     "category": "Earphone",
     "price": 299,
-    "currency": "INR",
+    "discount": 1,
+    "currency": "₹",
     "description": "ZedPunch Type-C wired magnetic gaming earphones budget-friendly audio solution hai jo gaming aur daily use ke liye low latency sound, deep bass aur comfortable fit provide karta hai.",
     "features": [
       "USB Type-C connectivity (no 3.5mm jack required)",
@@ -1308,7 +1349,8 @@
     "brand": "Aroma",
     "category": "Earphone",
     "price": 449,
-    "currency": "INR",
+    "discount": 1,
+    "currency": "₹",
     "description": "Aroma NB126 Berry V5.4 affordable true wireless earbuds hain jo long battery life, heavy bass aur fast charging ke saath aate hain. Budget users ke liye best option hai.",
     "features": [
       "Bluetooth 5.4 connectivity",
@@ -1346,6 +1388,7 @@
     "brand": "JBL",
     "category": "Speaker",
     "price": 8999,
+    "discount": 5,
     "currency": "₹",
     "description": "JBL Flip 6 powerful portable speaker hai jo outdoor use ke liye perfect hai.",
     "features": [
@@ -1375,6 +1418,7 @@
     "brand": "Sony",
     "category": "Earphone",
     "price": 1499,
+    "discount": 5,
     "currency": "₹",
     "description": "Sony earphones clear audio aur comfortable fit ke liye known hain.",
     "features": [
@@ -1404,6 +1448,7 @@
     "brand": "boAt",
     "category": "Speaker",
     "price": 2499,
+    "discount": 5,
     "currency": "₹",
     "description": "boAt Stone 650 budget-friendly speaker hai jo strong sound output deta hai.",
     "features": [

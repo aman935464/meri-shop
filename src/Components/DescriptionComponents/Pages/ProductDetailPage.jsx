@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
 import useProductData from "../../../Api/ProductQuery";
-import FirstDetailPage from "./FirstDetailPage";
-import SecondDetailPage from "./SecondDetailPage";
 import useProductStore from "../../../store/useProductStore";
 import "../Styles.css";
 import { useEffect } from "react";
+import ProductImages from './ProductImages.jsx';
+import ProductSummary from "./ProductSummary";
+
 
 export default function ProductDetailPage() {
   const { id } = useParams();
@@ -19,11 +20,11 @@ export default function ProductDetailPage() {
 
   return (
     <div id="product-detail">
-      <div id="left">
-      <FirstDetailPage />
+      <div id="left-section">
+        <ProductImages />
       </div>
-      <div id="right">
-      <SecondDetailPage />
+      <div id="right-section">
+        <ProductSummary />
       </div>
     </div>
   );

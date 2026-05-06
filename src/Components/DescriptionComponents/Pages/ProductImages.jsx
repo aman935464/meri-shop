@@ -1,14 +1,10 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
-// import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import useProductStore from "../../../store/useProductStore";
 
@@ -26,7 +22,7 @@ export default function App() {
               "--swiper-pagination-color": "#fff",
             }}
             spaceBetween={10}
-            // loop={true}
+            loop={true}
             navigation={true}
             thumbs={{ swiper: thumbsSwiper }}
             modules={[FreeMode, Navigation, Thumbs]}
