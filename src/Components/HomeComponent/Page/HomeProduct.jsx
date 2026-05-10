@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import useFilteredProduct from "../../../Hooks/FilteredProduct";
+import useFilteredProduct from "../../../Hooks/useFilteredProduct";
 import useCartStore from "../../../store/useCartStore";
 
 export default function HomeProduct() {
@@ -9,9 +9,9 @@ export default function HomeProduct() {
 
   return (
     <div className="productContainer">
-      {filteredProducts?.map((product) => (
-        <div className="productCard" key={product.id}>
-          <Link to={`product/${product.id}`}>
+      {filteredProducts?.map((product,index) => (
+        <div className="productCard" key={index}>
+          <Link to={`product/${product.id}`} className="link">
             <img src={product.images[0]} alt={product.title} />
             <h5>
               <b>{product.currency}</b>

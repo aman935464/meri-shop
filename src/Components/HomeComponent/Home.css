@@ -1,0 +1,129 @@
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 24px;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, #667eea 8%, transparent),
+    color-mix(in srgb, #f093fb 8%, transparent),
+    color-mix(in srgb, #4facfe 8%, transparent)
+  );
+  border-radius: 24px;
+  margin: 32px 16px;
+  position: relative;
+  background-color: var(--card);
+  overflow: hidden;
+}
+
+/* Blobs */
+.es-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(40px);
+  pointer-events: none;
+}
+.es-blob-1 {
+  width: 200px;
+  height: 200px;
+  background: #667eea;
+  opacity: 0.12;
+  top: -60px;
+  left: -60px;
+}
+.es-blob-2 {
+  width: 160px;
+  height: 160px;
+  background: #f093fb;
+  opacity: 0.12;
+  bottom: -40px;
+  right: -40px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .es-blob-1,
+  .es-blob-2 {
+    opacity: 0.2;
+  }
+}
+
+/* Icon ring */
+.es-icon-ring {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #f093fb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 32px color-mix(in srgb, #667eea 30%, transparent);
+  animation: es-float 3s ease-in-out infinite;
+  font-size: 40px;
+}
+
+@keyframes es-float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+
+/* Title — gradient text dono modes mein kaam karta hai */
+.es-title {
+  font-size: 22px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea, #f093fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 10px;
+}
+
+/* Subtitle — system color use karo */
+.es-sub {
+  font-size: 15px;
+  color: var(--color-text-secondary, #6b7280);
+  margin: 0 0 28px;
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+/* Tags */
+.es-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.es-tag {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tag-purple {
+  background: color-mix(in srgb, #667eea 15%, transparent);
+  color: #667eea;
+}
+.tag-pink {
+  background: color-mix(in srgb, #f093fb 15%, transparent);
+  color: #d946ef;
+}
+.tag-blue {
+  background: color-mix(in srgb, #4facfe 15%, transparent);
+  color: #0284c7;
+}
+.tag-green {
+  background: color-mix(in srgb, #43e97b 15%, transparent);
+  color: #16a34a;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tag-purple { color: #a78bfa; }
+  .tag-pink   { color: #e879f9; }
+  .tag-blue   { color: #38bdf8; }
+  .tag-green  { color: #4ade80; }
+}

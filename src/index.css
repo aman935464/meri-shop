@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
+}
 :root {
   --bg: #ffffff;
   --text: #111111;
@@ -96,6 +96,7 @@ header{
   font-weight: 500;
   color: var(--text);
   margin: 0;
+  text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .productCard h5{
@@ -110,6 +111,7 @@ header{
   color: var(--btn-text);
   border-radius: 20px;
   margin-top: 10px;
+  border: none;
   font-size: clamp(12px, 1.5vw, 16px);
   letter-spacing: 0.7px;
   transition: all 0.3s ease;
@@ -119,7 +121,6 @@ header{
   transform: scale(1.05);
   letter-spacing: 1.9px;
   background-color: gray;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.664), 0 0 10px rgba(100, 150, 255, 0.3);
 }
 
 @media (max-width: 600px) {
@@ -158,8 +159,9 @@ header{
 
 
 .swiper {
-  position: fixed !important;
-  top: auto;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background-color: var(--bg);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -170,7 +172,9 @@ header{
 
 .swiper .swiper-slide {
   text-align: center;
-  width: 50px;
+  width: clamp(50px, 10vw, 70px);
+  height: clamp(30px, 10vw, 42px);
+  font-size: clamp(22px, 2vw, 28px);
   color: var(--text);
   display: flex;
   justify-content: center;
@@ -201,3 +205,30 @@ header{
 
 
 /* Home component css ended */
+.swiper .swiper-slide button {
+  padding: 7px 16px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(128, 128, 128, 0.25);
+  background: transparent;
+  color: var(--text, #555);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.swiper .swiper-slide button:hover {
+  border-color: rgba(129, 140, 248, 0.7);
+  color: #818cf8;
+  background: rgba(129, 140, 248, 0.08);
+  transform: translateY(-1px);
+}
+.swiper .swiper-slide button.active {
+  background: linear-gradient(135deg, #667eea, #f093fb);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(102, 126, 234, 0.4);
+  transform: translateY(-1px);
+}

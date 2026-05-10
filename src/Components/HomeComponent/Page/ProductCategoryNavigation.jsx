@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import useFilteredProduct from "../../../Hooks/FilteredProduct";
+import useFilteredProduct from "../../../Hooks/useFilteredProduct";
 
 function ProductCategortNavigation() {
   const { categoryData, selectedCategory, setSelectedCategory } =
