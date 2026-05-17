@@ -12,7 +12,7 @@ function ProductCategortNavigation() {
 
   return (
     <>
-      <div className="swiper">
+      <div className="category-nav-wrapper">
         <Swiper
           modules={[Autoplay, Pagination, Navigation]}
           spaceBetween={1}
@@ -22,18 +22,19 @@ function ProductCategortNavigation() {
             disableOnInteraction: false,
           }}
           breakpoints={{
-            200: { slidesPerView: 3 },
-            320: { slidesPerView: 4 },
-            720: { slidesPerView: 8 },
-            1024: { slidesPerView: 10 },
+            0: { slidesPerView: 4 },
+            480: { slidesPerView: 5 },
+            768: { slidesPerView: 7 },
+            1024: { slidesPerView: 9 },
+            1280: { slidesPerView: 11 },
           }}
-          
         >
           {categoryData?.map((category, index) => (
             <SwiperSlide key={index} className="swiper-slide">
               <button
                 onClick={() => setSelectedCategory(category)}
                 className={selectedCategory === category ? "active" : ""}
+                id=""
               >
                 {category}
               </button>

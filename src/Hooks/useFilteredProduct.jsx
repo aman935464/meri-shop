@@ -11,7 +11,7 @@ const useFilteredProduct = () => {
     selectedQuery,
     setSelectedQuery,
   } = useProductStore();
-  const deferredQuery = useDebounce(selectedQuery, 300);
+  const deferredQuery = useDebounce(selectedQuery, 700);
 
   const categoryData = useMemo(() => {
     return ["all", ...new Set(data.map((cat) => cat.category))];

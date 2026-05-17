@@ -18,7 +18,6 @@
   overflow: hidden;
 }
 
-/* Blobs */
 .es-blob {
   position: absolute;
   border-radius: 50%;
@@ -49,7 +48,6 @@
   }
 }
 
-/* Icon ring */
 .es-icon-ring {
   width: 96px;
   height: 96px;
@@ -69,7 +67,6 @@
   50%       { transform: translateY(-10px); }
 }
 
-/* Title — gradient text dono modes mein kaam karta hai */
 .es-title {
   font-size: 22px;
   font-weight: 600;
@@ -80,7 +77,6 @@
   margin: 0 0 10px;
 }
 
-/* Subtitle — system color use karo */
 .es-sub {
   font-size: 15px;
   color: var(--color-text-secondary, #6b7280);
@@ -89,7 +85,6 @@
   line-height: 1.6;
 }
 
-/* Tags */
 .es-tags {
   display: flex;
   gap: 8px;
