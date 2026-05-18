@@ -2,13 +2,14 @@ import { useState } from "react";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { useAuthStore } from "../store/authStore.js";
 import { useForm } from "../Hooks/useForm.js";
-import {Eye, EyeOff, User} from "lucide-react"
-import "./lkjh.css";
+import { Eye, EyeOff, User } from "lucide-react";
+import "./Form.css";
 
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [message, setMessage] = useState({
-    type: "",text: "",
+    type: "",
+    text: "",
   });
   const { Login, loading } = useAuthStore();
   const navigate = useNavigate();
@@ -24,10 +25,8 @@ const LoginPage = () => {
       const res = await Login(formData);
       setMessage({
         text: res.message,
-        type: "success"
+        type: "success",
       });
-      console.log("logi,", res.message);
-      
       resetForm();
       navigate(from, {
         replace: true,
@@ -36,11 +35,10 @@ const LoginPage = () => {
       setMessage({
         text: error.message,
         type: "error",
-      })
+      });
     }
   };
 
-  
   return (
     <div className="page-bg">
       <div className="main-container">
@@ -49,7 +47,7 @@ const LoginPage = () => {
           <div className="animation" style={{ "--i": 17 }}>
             <h2>Login</h2>
           </div>
- 
+
           <form onSubmit={handleSubmit}>
             <div className="input-box animation" style={{ "--i": 18 }}>
               <input
@@ -79,11 +77,11 @@ const LoginPage = () => {
                 {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
               </button>
             </div>
- 
+
             {message.text && (
               <p className={`form-message ${message.type}`}>{message.text}</p>
             )}
- 
+
             <button
               type="submit"
               className="btn animation"
@@ -93,7 +91,7 @@ const LoginPage = () => {
               {loading ? "Loading..." : "Login"}
             </button>
           </form>
- 
+
           <div className="logreg-link animation" style={{ "--i": 21 }}>
             <p>
               Don't have an account?{" "}
@@ -103,16 +101,21 @@ const LoginPage = () => {
             </p>
           </div>
         </div>
- 
+
         <div className="info-text" style={{ right: 0 }}>
           <div className="animation" style={{ "--i": 17 }}>
-            <h2>WELCOME<br />BACK!</h2>
-            <p> Sign in to continue managing your
-  products, orders, customers, and
-  admin dashboard securely.</p>
+            <h2>
+              WELCOME
+              <br />
+              BACK!
+            </h2>
+            <p>
+              {" "}
+              Sign in to continue managing your products, orders, customers, and
+              admin dashboard securely.
+            </p>
           </div>
         </div>
- 
       </div>
     </div>
   );

@@ -10,7 +10,7 @@
   --btn: blue;
   --btn-text: #ffffff;
   --remover: multiply;
-  --page: #99999969;
+  --page: #777777;
 }
 
 /* DARK THEME */
@@ -21,7 +21,7 @@
   --btn: #ffffff;
   --btn-text: #000000;
   --remover: screen;
-  --page: #99999969;
+  --page: #777777;
 }
 
 h1 {

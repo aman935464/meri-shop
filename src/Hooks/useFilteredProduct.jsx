@@ -1,5 +1,5 @@
 import React, { useDeferredValue, useMemo, useState } from "react";
-import useProductData from "../Api/ProductQuery.jsx";
+import useProductData from "../Api/ProductQuery.js";
 import useProductStore from "../store/useProductStore.js";
 import useDebounce from "./useDebounce.jsx";
 

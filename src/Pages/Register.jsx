@@ -3,7 +3,7 @@ import { useForm } from "../Hooks/useForm";
 import { useAuthStore } from "../store/authStore";
 import { useLocation, useNavigate, Link } from "react-router-dom";
 import { EyeOff, Eye, User, Mail } from "lucide-react";
-import "./lkjh.css";
+import "./Form.css";
 
 const Register = () => {
   const location = useLocation();
@@ -29,13 +29,10 @@ const Register = () => {
         text: res.message,
         type: res.success,
       });
-      console.log("regi", res.message);
       resetForm();
-      console.log("before navigate");
       navigate(from, {
         replace: true,
       });
-      console.log("after navigate");
     } catch (error) {
       setMessage({
         text: error.message,
