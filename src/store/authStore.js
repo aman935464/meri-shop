@@ -51,15 +51,18 @@ export const useAuthStore = create((set) => ({
   },
   getProfile: async () => {
     try {
+      set({loading: true})
       const res = await Api.get("/auth/profile");
       set({
         user: res.data.user,
         isAuthenticated:true,
+        loading: false,
       })
     } catch (error) {
       set({
         user: null,
-        isAuthenticated: false,
+        isAuthenticated: false,,
+        loading: false
       })
     }
   },
