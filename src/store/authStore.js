@@ -5,6 +5,7 @@ export const useAuthStore = create((set) => ({
   user: null,
   loading: false,
   isAuthenticated: false,
+  initializing: true,
 
   Register: async (formData) => {
     try {
@@ -21,10 +22,10 @@ export const useAuthStore = create((set) => ({
 
     } catch (error) {
       set({ loading: false });
-      throw ( error.response?.data || {
+      throw (error.response?.data || {
         message: error.message
       }
-    )
+      )
     }
   },
 
@@ -44,25 +45,30 @@ export const useAuthStore = create((set) => ({
       set({
         loading: false
       })
-      throw ( error.response?.data || {
+      throw (error.response?.data || {
         message: error.message
       })
     }
   },
   getProfile: async () => {
     try {
-      set({loading: true})
+      set({ loading: true })
+      console.log("getProfile call ho raha hai...");
       const res = await Api.get("/auth/profile");
+      console.log("getProfile response:", res.data);
       set({
         user: res.data.user,
-        isAuthenticated:true,
+        isAuthenticated: true,
         loading: false,
+        initializing: false
       })
     } catch (error) {
+      console.log("getProfile error:", error);
       set({
         user: null,
         isAuthenticated: false,
-        loading: false
+        loading: false,
+        initializing: false
       })
     }
   },
