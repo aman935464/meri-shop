@@ -53,9 +53,7 @@ export const useAuthStore = create((set) => ({
   getProfile: async () => {
     try {
       set({ loading: true })
-      console.log("getProfile call ho raha hai...");
       const res = await Api.get("/auth/profile");
-      console.log("getProfile response:", res.data);
       set({
         user: res.data.user,
         isAuthenticated: true,
@@ -63,7 +61,6 @@ export const useAuthStore = create((set) => ({
         initializing: false
       })
     } catch (error) {
-      console.log("getProfile error:", error);
       set({
         user: null,
         isAuthenticated: false,
