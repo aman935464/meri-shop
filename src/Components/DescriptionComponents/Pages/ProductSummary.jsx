@@ -1,27 +1,92 @@
+// import useRenderStars from "../../../Hooks/useStarRating";
+// import useProductStore from "../../../store/useProductStore";
+// import ProductCalculation from "../../ProductCalculation";
+// import ProductSummary2 from "./ProductSummary2";
+
+// export default function ProductSummary() {
+//   const { product } = useProductStore();
+
+//   return (
+//     <>
+//       <h2 className="product-main-title">
+//         {product?.title}
+//       </h2>
+//       <p className="product-main-title max-[600px]:hidden"
+//         style={{ fontWeight: 400, fontSize: 'clamp(12px, 1.2vw, 15px)', opacity: 0.85 }}>
+//         {product?.description}
+//       </p>
+//       <p className="product-brand">
+//         Brand: <b>{product?.brand}</b>
+//       </p>
+//       <div className="stars-row">
+//         {useRenderStars(product?.rating)}
+//         <span className="rating-count">({product?.rating})</span>
+//       </div>
+
+//       <ProductCalculation />
+//       <ProductSummary2 />
+//     </>
+//   );
+// }
+
+
+
+
 import useRenderStars from "../../../Hooks/useStarRating";
 import useProductStore from "../../../store/useProductStore";
 import ProductCalculation from "../../ProductCalculation";
 import ProductSummary2 from "./ProductSummary2";
 
-export default function SecondDetailPage() {
+export default function ProductSummary() {
   const { product } = useProductStore();
+
+  const stockBadge = () => {
+    if (!product?.stock || product.stock === 0)
+      return { label: "Out of stock", cls: "badge-stock-out" };
+    if (product.stock <= 10)
+      return { label: `Low stock (${product.stock})`, cls: "badge-stock-low" };
+    return { label: `In stock (${product.stock})`, cls: "badge-stock-ok" };
+  };
+
+  const stock = stockBadge();
 
   return (
     <>
-      <h2 className="hidden max-[600px]:block font-semibold font-[Times_New_Roman] text-[clamp(14px,1.5vw,18px)] text-[var(--text)]">
-        {product?.title}
-      </h2>
-      <h2 className="block max-[600px]:hidden font-semibold font-[Cambria,Cochin,Georgia,Times,serif] text-[clamp(12px,1.5vw,18px] text-[var(--text)]">
-        {product?.description}
-      </h2>
-      <p className="text-sm font-semibold font-[Times_New_Roman] text-[clamp(10px,1vw,14px)] text-[var(--btn)]">
-        Brand: <b className="text-[var(--text)]">{product?.brand}</b>
-      </p>
-      <div className="flex items-center gap-1">
-        {useRenderStars(product?.rating)}
-        <span className="ml-2 text-sm text-[var(--btn)]">({product?.rating})</span>
+      {/* Category + Stock badges */}
+      <div className="badge-row">
+        {product?.category && (
+          <span className={`badge badge-cat`}>
+            {product.category}
+          </span>
+        )}
+        <span className={`badge ${stock.cls}`}>
+          {stock.label}
+        </span>
       </div>
+
+      {/* Title */}
+      <h2 className="product-main-title">{product?.title}</h2>
+
+      {/* Description — mobile par hidden */}
+      <p className="product-description max-[600px]:hidden">
+        {product?.description}
+      </p>
+
+      {/* Brand */}
+      <p className="product-brand">
+        Brand: <b>{product?.brand}</b>
+      </p>
+
+      {/* Stars */}
+      <div className="stars-row">
+        {useRenderStars(product?.rating)}
+        <span className="rating-count">({product?.rating})</span>
+      </div>
+
+      {/* Price */}
       <ProductCalculation />
+
+      {/* Features + Tags + Buttons */}
       <ProductSummary2 />
     </>
   );

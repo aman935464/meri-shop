@@ -72,12 +72,15 @@ export const useAuthStore = create((set) => ({
 
   Logout: async () => {
     try {
+      set({initializing: true})
       await Api.post("/auth/logout");
       set({
         user: null,
-        isAuthenticated: false
+        isAuthenticated: false,
+        initializing: false
       })
     } catch (error) {
+      set({initializing: false})
       return error.response?.data || {
         message: error.message
       };

@@ -40,7 +40,7 @@ export default function App() {
         <div className="swiper2">
           <Swiper
             onSwiper={setThumbsSwiper}
-            spaceBetween={10}
+            spaceBetween={8}
             slidesPerView={4}
             freeMode={true}
             watchSlidesProgress={true}
