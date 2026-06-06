@@ -1,25 +1,12 @@
-import axios from "axios";
+import { Axios } from "axios";
+import Api from "./Api.js";
 import { useQuery } from "@tanstack/react-query";
 
 const ProductApi = async () => {
-  let res = await axios.get(
-    "https://mocki.io/v1/625d514d-cc7e-4437-9fc1-894b2873eaa9",
-  );
+  const res = await Axios.get("https://mocki.io/v1/2ff45da8-562b-41f7-9aeb-fcf84784e1a2");
+  
   return res.data;
 };
-
-// const ProductApi = async () => {
-//   try {
-//     const [api1, api2] = await Promise.all([
-//       axios.get("https://mocki.io/v1/5a9d8bc4-b7ca-4e2a-8ba4-105a8d63ce45"),
-//       axios.get("https://mocki.io/v1/a4fb28d8-dc41-477e-85a0-0272e24a205b"),
-//     ])
-//     return [...api1.data, ...api2.data]
-
-//   } catch (error) {
-//     return error;
-//   }
-// }
 
 
 const useProductData = () => {
