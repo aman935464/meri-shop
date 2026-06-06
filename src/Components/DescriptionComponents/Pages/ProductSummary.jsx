@@ -1,34 +1,3 @@
-// import useRenderStars from "../../../Hooks/useStarRating";
-// import useProductStore from "../../../store/useProductStore";
-// import ProductCalculation from "../../ProductCalculation";
-// import ProductSummary2 from "./ProductSummary2";
-
-// export default function ProductSummary() {
-//   const { product } = useProductStore();
-
-//   return (
-//     <>
-//       <h2 className="product-main-title">
-//         {product?.title}
-//       </h2>
-//       <p className="product-main-title max-[600px]:hidden"
-//         style={{ fontWeight: 400, fontSize: 'clamp(12px, 1.2vw, 15px)', opacity: 0.85 }}>
-//         {product?.description}
-//       </p>
-//       <p className="product-brand">
-//         Brand: <b>{product?.brand}</b>
-//       </p>
-//       <div className="stars-row">
-//         {useRenderStars(product?.rating)}
-//         <span className="rating-count">({product?.rating})</span>
-//       </div>
-
-//       <ProductCalculation />
-//       <ProductSummary2 />
-//     </>
-//   );
-// }
-
 
 
 

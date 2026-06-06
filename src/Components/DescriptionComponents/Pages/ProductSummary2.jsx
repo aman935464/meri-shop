@@ -1,8 +1,9 @@
+import useCartStore from "../../../store/useCartStore";
 import useProductStore from "../../../store/useProductStore";
-
 
 export default function ProductSummary2() {
   const { product } = useProductStore();
+  const {addToCart} = useCartStore()
 
   return (
     <>
@@ -30,8 +31,7 @@ export default function ProductSummary2() {
       )}
 
       <div className="btn-row">
-        <button className="btn-primary">
-          <i className="ti ti-shopping-cart" aria-hidden="true"></i>
+        <button className="btn-primary" onClick={() => addToCart(product)}>
           Add to Cart
         </button>
         <button className="btn-secondary">

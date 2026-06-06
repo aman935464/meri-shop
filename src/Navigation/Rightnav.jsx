@@ -30,16 +30,12 @@ function Rightnav() {
           <Languages size={24} />
         </button>
         <button className="Icon" aria-label="user profile">
-          <NavLink
+          <Link
             to="/profile"
             className="link"
-            style={({ isActive }) => ({
-              color: isActive ? "red" : "black",
-              fontWeight: isActive ? "bold" : "normal",
-            })}
           >
             <UserRoundPen size={24} />
-          </NavLink>
+          </Link>
         </button>
         <button className="Icon" aria-label="shopping cart">
           <Link to="/cart" className="link">
