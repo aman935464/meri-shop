@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import useProductData from "../../../Api/ProductQuery";
+import useProductData from "../../../Api/ProductApi.js";
 import useProductStore from "../../../store/useProductStore";
 import "../Styles.css";
 import { useEffect } from "react";

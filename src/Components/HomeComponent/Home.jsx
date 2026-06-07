@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeProduct from './Page/HomeProduct'
 import ProductCategortNavigation from './Page/ProductCategoryNavigation'
-import useFilteredProduct from '../../Hooks/useFilteredProduct'
+import useFilteredProduct from '../../Hooks/useFilteredProduct.js'
 import "./Home.css"
 import { Search, SearchAlert } from 'lucide-react'
 

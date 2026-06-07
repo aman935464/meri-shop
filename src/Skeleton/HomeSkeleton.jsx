@@ -1,5 +1,5 @@
 import Skeleton from "react-loading-skeleton";
-import useFilteredProduct from "../Hooks/useFilteredProduct";
+import useFilteredProduct from "../Hooks/useFilteredProduct.js";
 export default function HomeSkeleton() {
   const {categoryData, filteredProducts} = useFilteredProduct();
   return (
