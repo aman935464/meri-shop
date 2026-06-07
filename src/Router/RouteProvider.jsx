@@ -42,9 +42,7 @@ const Router = createBrowserRouter([
       {
         path: "product/:id",
         element: (
-          <ProtectedRoute>
             <ProductPage />
-          </ProtectedRoute>
         ),
       },
       {
