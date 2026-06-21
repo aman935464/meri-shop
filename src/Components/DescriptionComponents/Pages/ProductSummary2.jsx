@@ -34,10 +34,10 @@ export default function ProductSummary2() {
         <button className="btn-primary" onClick={() => addToCart(product)}>
           Add to Cart
         </button>
-        <button className="btn-secondary">
+        {/* <button className="btn-secondary">
           <i className="ti ti-heart" aria-hidden="true"></i>
           Wishlist
-        </button>
+        </button> */}
       </div>
     </>
   );

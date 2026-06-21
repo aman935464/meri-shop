@@ -12,7 +12,7 @@ export default function HomeSkeleton() {
           />
       </div>
       <div className="productContainer">
-        {filteredProducts.map((_, i) => (
+        {filteredProducts?.map((_, i) => (
           <div
             key={i}
             className="productCard"

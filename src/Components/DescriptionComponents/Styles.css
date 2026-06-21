@@ -290,7 +290,6 @@
   background: rgba(128,128,128,0.08);
 }
 
-/* ── Buttons ── */
 .btn-row {
   display: flex;
   gap: 10px;
@@ -303,7 +302,7 @@
   padding: 10px;
   border-radius: 8px;
   background: var(--btn);
-  color: #fff;
+  color: var(--btn-text);
   border: none;
   font-size: 13px;
   font-weight: 600;
@@ -315,7 +314,10 @@
   transition: opacity 0.2s;
 }
 
-.btn-primary:hover { opacity: 0.9; }
+.btn-primary:hover {
+   opacity: 0.9; 
+   background-color: #3C3489;
+}
 
 .btn-secondary {
   flex: 1;

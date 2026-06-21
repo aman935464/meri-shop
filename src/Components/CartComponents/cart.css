@@ -219,7 +219,8 @@
   background-color: var(--page);
   display: flex;
   flex-direction: column;
-  height: clamp(300px, 5vw, 500px);
+  height: auto;
+  max-height: 25rem;
   gap: 1rem;
   border-radius: 10px;
   padding: 1rem;
@@ -264,4 +265,24 @@
 
 #cart-summary .sec2 .pre-price {
   text-decoration: line-through;
+}
+
+
+.order-btn {
+  width: 100%;
+  border-radius: 20px;
+  background-color: var(--btn);
+  color: var(--btn-text);
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: clamp(12px, 1.5vw, 18px);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.7px;
+  transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
 }

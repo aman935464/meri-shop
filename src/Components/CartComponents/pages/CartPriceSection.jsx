@@ -1,7 +1,5 @@
-import useProductStore from "../store/useProductStore";
 
-export default function ProductCalculation(props) {
-  const { product } = useProductStore();
+export default function CartPriceSection({product}) {
   const discount = product?.discount || 0;
   const price = product?.price || 0;
   const currentPrice = Number(price - (price * discount) / 100).toFixed(0);

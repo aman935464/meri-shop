@@ -11,13 +11,13 @@ export default function HomeProduct() {
     <div className="productContainer">
       {filteredProducts?.map((product,index) => (
         <div className="productCard" key={index}>
-          <Link to={`product/${product.id}`} className="link">
-            <img src={product.images[0]} alt={product.title} />
+          <Link to={`product/${product?.id}`} className="link">
+            <img src={product?.images[0]} alt={product?.title} />
             <h5>
-              <b>{product.currency}</b>
-              {product.price}
+              <b>{product?.currency}</b>
+              {product?.price}
             </h5>
-            <h6>{product.title}</h6>
+            <h6>{product?.title}</h6>
           </Link>
           <button className="addcart-btn" onClick={() => addToCart(product)}>Add Cart</button>
         </div>

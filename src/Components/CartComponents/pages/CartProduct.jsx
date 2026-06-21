@@ -1,5 +1,6 @@
 import React from "react";
 import useCartStore from "../../../store/useCartStore";
+import CartPriceSection from "./CartPriceSection";
 export default function CartProduct() {
   const { cart, clearCart, removeCart, increaseQty, decreaseQty } =
     useCartStore();
@@ -36,14 +37,13 @@ export default function CartProduct() {
             </div>
           </div>
           <div className="price-sec">
-            <h5>
-              <b>{item.currency}</b>
-              {item.price}
-            </h5>
+            <CartPriceSection product={item} />
           </div>
         </div>
       ))}
-      <button onClick={clearCart} className="items-clear-btn">clear</button>
+      <button onClick={clearCart} className="items-clear-btn">
+        clear
+      </button>
     </>
   );
 }
