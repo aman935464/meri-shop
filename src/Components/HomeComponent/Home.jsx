@@ -7,9 +7,7 @@ import NotFoundPage from "../../Pages/NotFoundPage.jsx";
 
 export default function Home({ query }) {
   const { filteredProducts, isLoading } = useFilteredProduct();
-  if (isLoading) {
-    return <HomeSkeleton/>
-  }
+  if (isLoading) return (<HomeSkeleton/>);
   return (
     <div className="home">
       <ProductCategortNavigation />

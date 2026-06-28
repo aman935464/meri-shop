@@ -5,7 +5,7 @@ export default function Logo() {
     return (
         <>
             <div className='logo' >
-                <span className='firstLetter'>MY</span>
+                <span className='firstLetter'>MERI</span>
                 <span className='secondLetter'>shop</span>
             </div>
         </>
